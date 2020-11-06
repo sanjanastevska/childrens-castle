@@ -2,7 +2,7 @@ body{
     font-family: 'Times New Roman', Times, serif;
     line-height: 1.5;
     margin: 0;
-    background-image: repeating-linear-gradient(90deg,  rgba(191, 174, 250, 0.575), rgba(237, 234, 247, 0.76) 5%);
+    background-image: repeating-linear-gradient(90deg,  rgba(191, 174, 250, 0.575), rgba(237, 234, 247, 0.76) 4%);
 }
 
 header{
@@ -69,6 +69,79 @@ header{
     text-align: center;
     margin-top: 20px;
     margin-bottom: 20px;
+}
+
+.more{
+    color: blue;
+    font-size: 20px;
+    border: none;
+    text-decoration: none;
+    list-style: none;
+}
+
+
+.flexContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+}
+
+.flexContainer > .card {
+    width: 250px;
+    margin: 15px;
+    font-size: 18px;
+    text-align: center;
+  }
+
+  .card p{
+      color: grey;
+      text-align: left;
+  }
+
+  .card img{
+    border: 8px solid white;
+    border-radius: 4px;
+    width: 250px;
+    margin-top: 0px;
+    box-shadow: 2px 2px 4px -1px rgba(0, 0, 0, 1);
+  }
+
+
+.leftDiv{
+    width: 40%;
+    float: left;
+    font-size: 20px;
+    color: gray;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin-left: 120px;
+}
+
+span{
+    color: blue;
+    text-decoration: underline;
+}
+
+.rightDiv{
+    margin-top: 90px;
+    width: 30%;
+    float: right;
+    margin-right: 180px;
+    font-size: 20px;
+    color: gray;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;   
+}
+.rightDiv p{
+    border-bottom: 1px dashed gray; 
+}
+
+.aboutCastle{
+    float: left;
+    margin-top: 90px;
+    width: 80%;
+    margin-left: 120px;
+    font-size: 20px;
+    color: gray;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; 
 }
 
 
